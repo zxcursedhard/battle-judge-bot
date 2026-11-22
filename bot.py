@@ -239,7 +239,7 @@ def cmd_start(message):
         "📌 `/unpin` — вкл/выкл автооткрепление при ответе слившегося\n\n"
         "*⚠️ Настройка перед стартом:*\n"
         "1. Дай мне права *Администратора* (право *Закреплять сообщения*).\n"
-        "2. В `@BotFather` должен быть выключен *Group Privacy* (`/setprivacy` -> `Disable`)."
+     
     )
     bot.send_message(message.chat.id, text, reply_markup=markup)
 
